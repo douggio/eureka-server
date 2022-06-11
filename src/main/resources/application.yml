@@ -6,6 +6,7 @@ eureka:
     fetchRegistry: false
   instance:
     hostname: localhost
+    lease-renewal-interval-in-seconds: 20
 spring:
   application:
     name: eureka-server
